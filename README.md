@@ -11,7 +11,7 @@
    - [Source](https://www.businessofapps.com/insights/ratings-reviews-affect-consumer-decision-download-apps/)
 
 3) Is there any correlation between the various ratings and the device being an Android or iOS product?
-   - This question will help us determine if higher ratings are associated with the device being an Android or an Apple product. It can provide insights into the relationship between device popularity and user satisfaction. Investigating this correlation is essential for developers. It helps them determine if increasing ratings directly translates to higher user satisfaction.
+   - This question will help us determine if higher ratings are associated with the device being an Android or an Apple product. It can provide insights into the relationship between device popularity and user satisfaction. Investigating this correlation is essential for developers. It helps them determine if increasing ratings directly translates to higher user satisfaction between product types.
    - [Source](https://www.businessofapps.com/data/most-popular-apps/)
 
 
@@ -19,5 +19,14 @@
 ### Sources
 1) Kaggle: 🤖Android vs iOS🍎 Device Benchmarks📊
    -[Source](https://www.kaggle.com/datasets/alanjo/android-vs-ios-devices-crossplatform-benchmarks/)
-2) Kaggle: Top 20 Play Store App Reviews (Daily Update)
+   - We were able to find a CSV file dataset on Kaggle that breaks down Android versus iOS device benchmarks into different columns including CPU, GPU, Memory, User Experience and total ratings.
+3) Kaggle: Top 20 Play Store App Reviews (Daily Update)
    -[Source](https://www.kaggle.com/datasets/odins0n/top-20-play-store-app-reviews-daily-update?rvi=1)
+   - The second data set is a CSV file containing app reviews of the top twenty Google Play apps. The columns of this data include: app name, the content of the review, the review ID, and the score for each review. We used the groups function in Tableau in order to group the apps by the category they fit into.
+
+These are the sources from the Kaggle website that we used for our analysis. To access them, click the link and it will take you to the Kaggle websiite. From there, hit the download button and upload these data sets into Tableau in order to create visualizations from their data.
+
+
+## Section 3 - Interpretting Visualizations
+### Our Visualizations
+1) Average Score Bar Chart [link to visualization](https://public.tableau.com/views/AverageScoreBarChart_17016405678550/Sheet1?:language=en-US&:display_count=n&:origin=viz_share_link)
