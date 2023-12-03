@@ -1,7 +1,7 @@
 # SocialMediaVisualizations
 
-#Section 1
-##Questions
+## Section 1
+### Questions
 1) What is the distribution of user ratings and reviews for different Android app categories?
    This question will help us understand the user sentiment towards different types of Android apps. It will also reveal which categories tend to receive higher ratings and more reviews, indicating higher user engagement. Understanding the distribution of user ratings and reviews across app categories is crucial for developers and marketers. Positive reviews and high ratings significantly impact app visibility and trust among potential users. Research has shown that higher ratings lead to increased downloads and user retention.
    
