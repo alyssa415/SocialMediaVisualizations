@@ -32,5 +32,8 @@ These are the sources from the Kaggle website that we used for our analysis. To 
 1) Average Score Bar Chart [link to visualization](https://public.tableau.com/views/AverageScoreBarChart_17016405678550/Sheet1?:language=en-US&:display_count=n&:origin=viz_share_link)
    - This first bar chart shows the average score for each of the twenty apps. We used the app names to color the chart as well, to make it more visually appealing. 
 
-3) Average Score by Category [link to visualization](https://public.tableau.com/views/AverageScorebyCategory/Sheet1?:language=en-US&:display_count=n&:origin=viz_share_link)
+2) Average Score by Category [link to visualization](https://public.tableau.com/views/AverageScorebyCategory/Sheet1?:language=en-US&:display_count=n&:origin=viz_share_link)
    - The second chart shows the average score by app category. We used a tree map so the size of the sections could be a nice indicator for the score that each category received.
+  
+3) Android vs. iOS Ratings [link to visualization](https://public.tableau.com/views/AndroidvsiOSRatings/Sheet1?:language=en-US&:display_count=n&:origin=viz_share_link)
+   - This is the description for this visualization
