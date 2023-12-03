@@ -18,4 +18,6 @@
 ## Section 2 - Data Description and Upload
 ### Sources
 1) Kaggle: 🤖Android vs iOS🍎 Device Benchmarks📊
-2) Kaggle: 
+   -[Source](https://www.kaggle.com/datasets/alanjo/android-vs-ios-devices-crossplatform-benchmarks/)
+2) Kaggle: Top 20 Play Store App Reviews (Daily Update)
+   -[Source](https://www.kaggle.com/datasets/odins0n/top-20-play-store-app-reviews-daily-update?rvi=1)
