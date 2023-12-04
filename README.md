@@ -1,4 +1,9 @@
 # SocialMediaVisualizations
+Class project of MGT 4250 Fall 2023 at Elon University
+
+This project aims to analyze two separate datasets containing information about Android and iOS mobile applications. The goal is to identify trends and characteristics that contribute to userattraction for each platform. By examining factors such as app category, ratings, reviews, and other relevant features, we seek to provide actionable insights for developers and marketers to enhance app visibility and user engagement.
+
+
 
 ## Section 1 - Project Description
 ### Questions
@@ -30,10 +35,14 @@ These are the sources from the Kaggle website that we used for our analysis. To 
 ## Section 3 - Interpretting Visualizations
 ### Our Visualizations
 1) Average Score Bar Chart [link to visualization](https://public.tableau.com/views/AverageScoreBarChart_17016405678550/Sheet1?:language=en-US&:display_count=n&:origin=viz_share_link)
-   - This first bar chart shows the average score for each of the twenty apps. We used the app names to color the chart as well, to make it more visually appealing. 
+   - This first bar chart shows the average score for each of the twenty apps. We used the app names to color the chart as well, to make it more visually appealing. The height of each bar indicates the average score of the corresponding app. Higher bars represent higher average scores, while shorter bars signify lower average scores.
+   - We can use this chart to identify apps with lower average scores: Instagram, Spotify, Facebook Messenger, Facebook, Skype, and LINE. These are potential candidates for further investigation, as they may have issues or shortcomings that are impacting user satisfaction. Understanding why certain apps underperform can inform developers and stakeholders about areas for improvement. The lower score averages for these six apps raise red flags indicating that their developers need to research why the other apps received better scores.
+   -  This chart visually answers the question we posed earlier. The bars show the distribution of the user ratings and reviews for the twenty apps in the second data set. Instead of just reading the average scores, this visualization gives more context to the numbers for the various apps in comparison to each other. 
 
 2) Average Score by Category [link to visualization](https://public.tableau.com/views/AverageScorebyCategory/Sheet1?:language=en-US&:display_count=n&:origin=viz_share_link)
-   - The second chart shows the average score by app category. We used a tree map so the size of the sections could be a nice indicator for the score that each category received.
+   - The second chart shows the average score by app category. The size of each square in the treemap directly represents the average score of the corresponding app category. Larger squares indicate higher average scores, while smaller squares represent lower scores.
+   - Clusters of large squares may suggest that certain categories tend to have higher-rated apps, while clusters of smaller squares may indicate lower-rated categories. The two large squares, Games and Productivity, indicate that these two categories are overall seen as more user satisfactory. This indicates trends in user satisfaction and the overall quality of apps within specific genres. Understanding user preferences can guide developers and marketers in catering to specific audience expectations. News, Communication, and Social Media received very similar, lower scores, so this indicates that these apps are on the same field of reception even though they include apps of very different functions.
+   - This chart perfectly signifies the correlation between app categpry and score rating. Someone can scroll over the graph and see the exact average score number and the size of the squares visually shows that score. Overall, this chart showed us that certain app catergories perform better than others in many ways, but especially in the sense of user satisfaction and ratings. 
   
 3) Android vs. iOS Ratings [link to visualization](https://public.tableau.com/views/AndroidvsiOSRatings/Sheet1?:language=en-US&:display_count=n&:origin=viz_share_link)
    - This is the description for this visualization
@@ -41,7 +50,8 @@ These are the sources from the Kaggle website that we used for our analysis. To 
 
 ## Section 4 - Discussion and Summary
 ### Article Summary
-
+[Article Link](https://onlinelibrary.wiley.com/doi/epdf/10.1002/smr.2316)
+The article delves into the relationship between user-reported issues, app ratings, and code quality indicators in the context of mobile app development. It aims to understand how specific types of user feedback are associated with app ratings and whether there is a connection between code quality metrics and critical issues. The study discusses its findings and acknowledges potential threats to the validity of the results. The importance of comprehending user-oriented metrics and code quality in app development is underscored. Various aspects of app development and evolution are explored, including app review classification, change request recommendations, and an examination of mobile app store rating systems. The article also investigates factors influencing the quality of mobile applications and methods for evaluating defects and predicting energy consumption. Much like the research we did for our analyzations, the article took into consideration different ratings to create their conclusions. 
 
 ### Conversation with ChatGPT 4
 We put our questions into ChatGPT 4 to see if the AI could give us more information regarding our research. Here are the responses we recieved:
@@ -57,3 +67,6 @@ We put our questions into ChatGPT 4 to see if the AI could give us more informat
 
 ### Conclusion:
 Overall, the AI's answers were helpful in leading us in new directions for our analysis. The information we received from the Chatbot was considerably vague, since it didn't have the data sets to work with. It could only give us general answers to the questions instead of more in depth analysis about app ratings and user satisfaction. If we could put in all of the data from the Kaggle sets, then the machine could've analysed the data and given us more attuned responses. 
+
+
+Our visualizations don't align with the graphics in the article. The article uses various other visualizations to represent the information presented, but the information stated in the article describes everything from our visualizations. Even though the article shows different visualizations, the information is reflected considerably well in our charts. In regards to the ChatGPT 4 answers, the Chatbot didn't give an example of the visualization type that it would use to answer the questions. The information it recommended for us to include is in our charts, but the answers themselves don't give recommendations. Altogether, the information and recommendations in both the ChatGPT answers and the article are reflected very well in our visualizations and the information we included answers them to a great degree. 
