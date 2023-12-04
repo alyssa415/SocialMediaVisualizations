@@ -37,3 +37,23 @@ These are the sources from the Kaggle website that we used for our analysis. To 
   
 3) Android vs. iOS Ratings [link to visualization](https://public.tableau.com/views/AndroidvsiOSRatings/Sheet1?:language=en-US&:display_count=n&:origin=viz_share_link)
    - This is the description for this visualization
+
+
+## Section 4 - Discussion and Summary
+### Article Summary
+
+
+### Conversation with ChatGPT 4
+We put our questions into ChatGPT 4 to see if the AI could give us more information regarding our research. Here are the responses we recieved:
+1) What is the distribution of user ratings and reviews for different Android app categories?
+   - As an AI, I don't have real-time access to databases or the ability to pull up-to-date statistics. However, I can tell you generally how you might go about finding this information. You would need to access a dataset that includes Android app categories, user ratings, and reviews. This data could potentially be obtained from the Google Play Store, where each app has a category, user rating, and user reviews. Once you have this data, you could use statistical analysis or data visualization tools to analyze the distribution of user ratings and reviews for different app categories. For example, you might find that games have a wider distribution of ratings than productivity apps, or that social media apps have more reviews than other categories. Please note that the distribution of user ratings and reviews can change over time and may be influenced by many factors, such as changes in app quality, user base, and market trends. Therefore, it's important to use up-to-date data and consider the context when analyzing this information.
+
+2) Is there a correlation between app category and score rating?
+   - As an AI, I don't have the ability to directly analyze data. However, I can tell you that in general, there could be a correlation between app category and score rating. For example, certain categories of apps might generally have higher ratings because they meet user needs more effectively, or because they attract a user base that is more likely to leave positive reviews. To determine if there is a correlation in your specific case, you would need to conduct a statistical analysis. This could involve calculating the correlation coefficient between app category (converted to numerical form, perhaps through one-hot encoding) and score rating, or conducting a hypothesis test to determine if the difference in average score rating between categories is statistically significant. Remember that correlation does not imply causation - even if there is a correlation between app category and score rating, it doesn't necessarily mean that the category of the app causes it to have a certain rating. There could be other factors at play.
+  
+3) Is there any correlation between the various ratings and the device being an Android or iOS product?
+   - As an AI, I don't have real-time data or the ability to analyze specific datasets. However, I can tell you that the correlation between ratings and the device being an Android or iOS product can depend on various factors. These can include the specific app or service being rated, the user experience on each platform, the demographic of users, and more. For example, if an app is better optimized for iOS, it may receive higher ratings on Apple's App Store compared to Google Play Store, and vice versa. To determine if there's a correlation, you would need to conduct a statistical analysis on a dataset that includes ratings and device information. This could involve techniques like correlation coefficients, cross-tabulation, or regression analysis. Remember that correlation does not imply causation. Even if there's a correlation between ratings and the device being an Android or iOS product, it doesn't necessarily mean one causes the other. Other factors could be influencing the ratings.
+
+
+### Conclusion:
+Overall, the AI's answers were helpful in leading us in new directions for our analysis. The information we received from the Chatbot was considerably vague, since it didn't have the data sets to work with. It could only give us general answers to the questions instead of more in depth analysis about app ratings and user satisfaction. If we could put in all of the data from the Kaggle sets, then the machine could've analysed the data and given us more attuned responses. 
